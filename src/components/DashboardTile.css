@@ -1,0 +1,22 @@
+.dashboard-tile {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 200px;
+    text-align: center;
+}
+
+.dashboard-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-tile h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
